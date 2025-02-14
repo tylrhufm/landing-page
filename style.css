@@ -1,1 +1,95 @@
 /*style.css*/
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    margin: 0; 
+}
+
+.upper-blue {
+    background-color: #1F2937;
+    margin: 0; 
+}
+.container-one {
+    margin: 0;
+    padding: 0 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+    padding: 16px 0;
+   
+}
+
+.logo {
+    width: 200px;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+.hero-container {
+    display: flex;
+    justify-content:flex-start;
+    padding-bottom: 70px;
+}
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 52px;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    
+}
+
+.hero-text p {
+    color: #f9faf8;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 100;
+    width: 90%;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    color: #fff;
+    padding: 6px 32px;
+    margin: 16px 0;
+    display: flex;
+    align-self: flex-start;
+
+
+
+}
+
+.hero-image {
+    width: 45%;
+    object-fit: contain;
+  }
