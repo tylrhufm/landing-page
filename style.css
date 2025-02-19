@@ -99,6 +99,7 @@ h2 {
 
 .information-container {
     display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0 10%;
 }
